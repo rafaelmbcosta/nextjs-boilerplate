@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const foo = 'oi'
-
 export default function Home({ title = 'React c/ Typescript' }) {
   return (
     <div className={styles.container}>
