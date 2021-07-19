@@ -7,4 +7,5 @@ This is a boilerplate for NextJS applications
 -  prettier
 -  husky / lint-staged
 -  jest / react testing library
+-  styled components
 
