@@ -8,11 +8,13 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn run lint --fix"
+      "yarn run lint --fix",
+      "yarn test --bail"
     ]
   },
   "dependencies": {
