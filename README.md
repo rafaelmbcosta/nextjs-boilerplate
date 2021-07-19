@@ -6,4 +6,5 @@ This is a boilerplate for NextJS applications
 -  eslint
 -  prettier
 -  husky / lint-staged
+-  jest / react testing library
 
