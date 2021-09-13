@@ -9,3 +9,4 @@ This is a boilerplate for NextJS applications
 -  Jest / react testing library
 -  Styled components
 -  Storybook 6.3.6
+-  PWA
